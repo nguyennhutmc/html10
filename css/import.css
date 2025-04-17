@@ -171,7 +171,7 @@ table, .table {
 
 @media (max-width: 991px) {
     :root{
-        --bs-body-font-size:.75rem;
+        --bs-body-font-size:0.6875rem;
     }
     html {
         font-size: 4.266666666666667vw; /*16px*/
@@ -187,7 +187,7 @@ table, .table {
     .container {
         width: 100%;
         max-width: 100%;
-        --bs-gutter-x: 1.5rem;
+        --bs-gutter-x:1.25rem;
     }
 }
 

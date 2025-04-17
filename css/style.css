@@ -42,6 +42,7 @@ header .dropdown-menu {
     padding: 0.6rem 1rem;
     font-weight: 700;
     line-height: 1.2;
+    white-space:nowrap;
 }
 
 .btn-primary {
@@ -159,6 +160,10 @@ header .dropdown-menu {
 .section4{
     padding-bottom:3.63rem;
 }
+.section4 .list .row{
+    --bs-gutter-x:0.89rem;
+    --bs-gutter-y:0.89rem;
+}
 .section4 .item{
     background:#E0E9EF;
     padding:1.55rem 1.08rem 1.09rem 1.18rem;
@@ -245,6 +250,7 @@ footer {
 }
 .footer_bot .logo_brand{
     height:3.0625rem;
+    object-fit: contain;
 }
 .footer_bot .list_social{
     font-size:1rem;
@@ -261,13 +267,22 @@ footer {
 
     .home_page {
     }
-
+    .section1 .txt2{
+        font-size: calc(1.375rem + 1.5vw);
+    }
     .section2 .list {
-        padding: 1.68rem;
+        padding: 1.68rem 1rem;
     }
 
     .section2 .item .image {
         width: 100%;
+    }
+    .section3 .col_inner{
+        padding-left:0;
+        padding-right:0;
+    }
+    .section4 .txt1{
+        font-size: calc(1.325rem + .9vw);
     }
     .section4 .item{
     }
@@ -279,8 +294,21 @@ footer {
 
     .sub_page3 {
     }
-
     footer {
+    }
+    .footer_top{
+        width:100vw;
+        position:relative;
+        left:-0.625rem;
+        padding-left:0.625rem;
+        padding-right:0.625rem;
+    }
+    .footer_bot .list_logo{
+        gap:1.25rem;
+        margin-bottom:1rem;
+    }
+    .footer_bot .logo_brand{
+        height:2rem;
     }
 }
 

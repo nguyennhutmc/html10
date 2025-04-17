@@ -10,9 +10,6 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<div id="loader" style="display: none;">
-    <div class="spinner-border" role="status"></div>
-</div>
 <div id="page">
     <header>
         <nav class="navbar navbar-expand-lg">
