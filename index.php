@@ -9,7 +9,7 @@
                                 <img class="banner_main" src="images/banner1.png" alt="">
                             </div>
                         </div>
-                        <div class="col-lg">
+                        <div class="col-lg col_right">
                             <div class="col_inner">
                             <div class="txt1">THERAPIE & COACHING</div>
                             <div class="txt2">Veränderung beginnt, wenn wir uns selbst (wieder) finden.</div>
@@ -39,7 +39,7 @@
                                 <div class="txt1">PSYCHOTHERAPIE</div>
                                 <div class="txt2">Ganzheitliche Körperpsychotherapie</div>
                                 <div class="text">In der ganzheitlichen Körperpsychotherapie nach dem Heilpraktikergesetz stehen Sie als Mensch mit Körper, Geist und Seele im Mittelpunkt. Belastende Erfahrungen hinterlassen oft Spuren, die Ihr Denken, Fühlen und Erleben beeinflussen. Gemeinsam erkunden wir, wie Sie diese Spuren verstehen und integrieren können, um wieder mehr Sicherheit und Verbundenheit zu spüren.</div>
-                                <div class="text-start mt-auto">
+                                <div class="text-start mt-auto hstack gap-x">
                                     <a href="#" class="btn btn-primary">Psychotherapie</a>
                                 </div>
                             </div>
@@ -53,8 +53,8 @@
                                 <div class="txt1">STÄRKEN-COACHING</div>
                                 <div class="txt2">Talent-Test mit Gallup CliftonStrengths</div>
                                 <div class="text">Der Schlüssel zu mehr Zufriedenheit und Erfolg liegt in Ihren Stärken. Mit dem Gallup CliftonStrengths®-Test erfahren Sie, welche Talente Sie auszeichnen – und wie Sie sie gezielt nutzen können, um Ihre Ziele zu erreichen.</div>
-                                <div class="text-start mt-auto">
-                                    <a href="#" class="btn btn-primary">Psychotherapie</a>
+                                <div class="text-start mt-auto hstack gap-x">
+                                    <a href="#" class="btn btn-primary">Für Einzelpersonen</a><a href="#" class="btn btn-primary">Für Unternehmen</a>
                                 </div>
                             </div>
                         </div>
@@ -67,8 +67,8 @@
                                 <div class="txt1">STRESS-RESILIENZ</div>
                                 <div class="txt2">Herzintelligenzmethode von HeartMath®</div>
                                 <div class="text">Stress kann uns erschöpfen und langfristig krank machen. Nutzen Sie die Intelligenz des Herzens, um Stress abzubauen, die emotionale Balance zu fördern und die körperliche Gesundheit zu verbessern.</div>
-                                <div class="text-start mt-auto">
-                                    <a href="#" class="btn btn-primary">Psychotherapie</a>
+                                <div class="text-start mt-auto hstack gap-x">
+                                    <a href="#" class="btn btn-primary">Für Einzelpersonen</a><a href="#" class="btn btn-primary">Für Unternehmen</a>
                                 </div>
                             </div>
                         </div>
@@ -81,20 +81,42 @@
                                 <div class="txt1">TEAMCOACHING</div>
                                 <div class="txt2">Stärken fördern, Kultur stärken, Erfolg steigern</div>
                                 <div class="text">Mit einem stärkenbasierten Coaching unterstütze ich Unternehmen, Führungskräfte und Teams dabei, eine positive und stärkenorientierte Unternehmenskultur zu schaffen. Dies fördert nicht nur die persönliche Entwicklung der Mitarbeitenden, sondern stärkt auch den Teamzusammenhalt und die Zusammenarbeit.</div>
-                                <div class="text-start mt-auto">
-                                    <a href="#" class="btn btn-primary">Psychotherapie</a>
+                                <div class="text-start mt-auto hstack gap-x">
+                                    <a href="#" class="btn btn-primary">Teamcoaching</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="section_bg pe-none"></div>
                 </div>
             </div>
             <div class="section3">
-                <div class="container">section3</div>
+                <div class="container">
+                    <div class="col_inner">
+                    <div class="txt1">LERNEN SIE MICH KENNEN!</div>
+                    <div class="text text-editor">
+                        <p>Ich bringe nicht nur langjährige Erfahrung als HR-Professional in einem globalen Konzern mit, sondern auch umfassende Qualifikationen als zertifizierter Gallup CliftonStrengths Coach und Co-Active Coach sowie als Heilpraktikerin für Psychotherapie und Soziologin.</p>
+                        <p>Mein sicherer Kompass und intuitiver Zugang zu dem im Menschen, was heile ist, bilden die Basis meiner Arbeit. Nach diesem Leitstern arbeite ich. Methodisch fließen in meine Arbeit die verschiedenen Ansätze ein, die ich je nach Bedarf passgenau für Sie einsetze.</p>
+                    </div>
+                    <div class="text-start mt-auto hstack gap-x">
+                        <a href="#" class="btn btn-warning">Über mich</a>
+                    </div>
+                    </div>
+                </div>
             </div>
             <div class="section4">
-                <div class="container">section4</div>
+                <div class="container">
+                    <div class="txt1">News – lesens- und hörenswert</div>
+                    <div class="list">
+                        <div class="row g-x">
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <div class="txt2">txt2</div>
+                                    <div class="txt3">txt3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container">
                 <div class="clr"><button type="button" class="btn btn-primary">Primary</button></div>
