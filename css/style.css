@@ -273,7 +273,9 @@ footer {
     .section2 .list {
         padding: 1.68rem 1rem;
     }
-
+    .section2 .item .box_text{
+        padding-top:2.64rem;
+    }
     .section2 .item .image {
         width: 100%;
     }
