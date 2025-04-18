@@ -30,11 +30,45 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     FÜR EINZELPERSONEN
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Menu SUb 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Menu SUb 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Menu SUb 3</a></li>
-                                </ul>
+                                <div class="dropdown-menu">
+                                    <div class="container d-flex justify-content-center">
+                                        <div class="list_nav hstack">
+                                            <div class="item">
+                                                <div class="icon text-center"><img src="images/icon_thumb_01.png" alt="" class="img"></div>
+                                                <div class="txt1 fw-bold">
+                                                    <p>PSYCHO-<br>
+                                                        THERAPIE</p>
+                                                </div>
+                                                <div class="text fw-semibold">
+                                                    <p>Ganzheitliche</p>
+                                                    <p>Körperpsychotherapie</p>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="icon text-center"><img src="images/icon_thumb_02.png" alt="" class="img"></div>
+                                                <div class="txt1 fw-bold">
+                                                    <p>STÄRKEN-<br>
+                                                        COACHING</p>
+                                                </div>
+                                                <div class="text fw-semibold">
+                                                    <p>Talent Assessment</p>
+                                                    <p>Gallup Clifton Strengths</p>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="icon text-center"><img src="images/icon_thumb_03.png" alt="" class="img"></div>
+                                                <div class="txt1 fw-bold">
+                                                    <p>STRESS-<br>
+                                                        RESILIENZ</p>
+                                                </div>
+                                                <div class="text fw-semibold">
+                                                    <p>Herzintelligenzmethode</p>
+                                                    <p>von HeartMath</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#">FÜR UNTERNEHMEN
