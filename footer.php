@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-lg-auto col_right">
-                    <div class="hstack list_social">
+                    <div class="hstack list_social justify-content-end">
                         <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
                         <a href="#"><i class="fab fa-xing fa-lg"></i></a>
                     </div>

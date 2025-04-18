@@ -187,7 +187,7 @@ table, .table {
     .container {
         width: 100%;
         max-width: 100%;
-        --bs-gutter-x:1.25rem;
+        --bs-gutter-x:1.75rem;
     }
 }
 

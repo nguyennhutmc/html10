@@ -2,21 +2,18 @@
     color: var(--color-primary);
 }
 
-header {
-    height: var(--header-height);
-}
-
-.sticky .header_height {
-    height: var(--header-height);
-}
-
 header .navbar {
     --bs-navbar-nav-link-padding-x: 0;
     --bs-navbar-nav-link-padding-y: 0;
     --bs-navbar-padding-y: 1.125rem;
     --bs-navbar-active-color: #FEB952;
 }
-
+.header_height {
+    height: var(--header-height);
+}
+.sticky header .navbar{
+    box-shadow: var(--bs-box-shadow-sm);
+}
 header .navbar-nav {
     --bs-nav-link-padding-y: 0;
     --bs-nav-link-color: #143952;
@@ -37,9 +34,9 @@ header .dropdown-menu {
 
 .btn {
     border: 0;
-    --bs-border-radius: 1rem;
+    --bs-border-radius:.875rem;
     --bs-btn-font-size: var(--bs-body-font-size);
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 0.625rem;
     font-weight: 700;
     line-height: 1.2;
     white-space:nowrap;
@@ -74,7 +71,7 @@ header .dropdown-menu {
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 1;
-    margin-bottom: 1.54rem;
+    margin-bottom: 1.5rem;
 }
 
 .section1 .txt2 {
@@ -88,7 +85,7 @@ header .dropdown-menu {
     color: #143952;
     font-size: 1rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height:1.25;
     margin-bottom:1.5rem;
 }
 .section2 .list {
@@ -227,6 +224,7 @@ footer {
 .footer_top .address .item{
     font-size: 0.75rem;
     font-weight: 700;
+    line-height:1;
 }
 .footer_top .address .item h4{
     color: #FEB952;
@@ -258,23 +256,29 @@ footer {
 }
 /* mobile */
 @media (max-width: 991.98px) {
-    :root {
-        --header-height: 4rem;
-    }
-
     header {
     }
-
+    header .navbar{
+        --bs-navbar-padding-y:0.875rem;
+        --bs-nav-link-font-size:0.875rem;
+    }
+    header .navbar-nav{
+        gap:.5rem;
+    }
     .home_page {
     }
     .section1 .txt2{
         font-size: calc(1.375rem + 1.5vw);
+        margin-bottom:1.5rem;
     }
     .section2 .list {
-        padding: 1.68rem 1rem;
+        padding:1.55rem .875rem 1.09rem .875rem;
+        position:relative;
+        width:100vw;
+        left:-.875rem;
     }
     .section2 .item .box_text{
-        padding-top:2.64rem;
+        padding:2.64rem 1.08rem 1.09rem 1.18rem;
     }
     .section2 .item .image {
         width: 100%;
@@ -301,9 +305,9 @@ footer {
     .footer_top{
         width:100vw;
         position:relative;
-        left:-0.625rem;
-        padding-left:0.625rem;
-        padding-right:0.625rem;
+        left:-0.875rem;
+        padding-left:0.875rem;
+        padding-right:0.875rem;
     }
     .footer_bot .list_logo{
         gap:1.25rem;

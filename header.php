@@ -12,15 +12,14 @@
 <body>
 <div id="page">
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2">
+                <a class="m-0 p-0 lh-1 mb" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                    <i class="fas fa-bars fs-3 lh-1"></i>
+                </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close fs-6" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-start flex-grow-1 col_left">
@@ -48,7 +47,7 @@
                                 <a class="nav-link" aria-current="page" href="#">KONTAKT</a>
                             </li>
                         </ul>
-                        <div class="d-flex col_right">
+                        <div class="d-flex col_right mt-5 mt-lg-0">
                             <div class="navbar-nav">
                                 <div class="nav-item"><a class="nav-link" href="#">AKTUELLES</a></div>
                                 <div class="nav-item"><a class="nav-link" href="#">PODCAST</a></div>
