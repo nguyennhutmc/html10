@@ -19,7 +19,7 @@
                 </a>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
                     <div class="offcanvas-header">
-                        <button type="button" class="btn-close fs-6" data-bs-dismiss="offcanvas"></button>
+                        <button type="button" class="btn-close fs-6 me-auto ms-0 ps-0" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-start flex-grow-1 col_left">
