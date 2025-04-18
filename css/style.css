@@ -347,9 +347,30 @@ footer {
     }
 
     header .navbar-nav {
-        gap: .5rem;
+        gap:1rem;
     }
+    header .dropdown-toggle{
+        position:relative;
+        display:inline;
+    }
+    header .dropdown-toggle::after{
 
+    }
+    header .navbar-nav .dropdown-menu{
+        width:100vw;
+        position:relative;
+        left:-1rem;
+        --bs-dropdown-spacer:.875rem;
+    }
+    header .list_nav .item{
+        width: 7.8125rem;
+    }
+    header .list_nav .item:last-child{
+        width:7.75rem;
+    }
+    header .list_nav .text{
+        font-size:0.5625rem;
+    }
     .home_page {
     }
 

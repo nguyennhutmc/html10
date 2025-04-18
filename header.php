@@ -31,7 +31,7 @@
                                     FÜR EINZELPERSONEN
                                 </a>
                                 <div class="dropdown-menu">
-                                    <div class="container d-flex justify-content-center">
+                                    <div class="container p-0 d-flex justify-content-center">
                                         <div class="list_nav hstack">
                                             <div class="item">
                                                 <div class="icon text-center"><img src="images/icon_thumb_01.png" alt="" class="img"></div>
