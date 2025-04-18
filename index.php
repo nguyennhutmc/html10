@@ -6,7 +6,14 @@
                     <div class="row g-0">
                         <div class="col-lg-auto col_left">
                             <div class="col_inner">
-                                <img class="banner_main" src="images/banner1.png" alt="">
+                                <div class="banner_main">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img class="w-100" src="images/banner1.png" alt=""></div>
+                                        <div class="swiper-slide"><img class="w-100" src="images/694-1132x1032.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg col_right">

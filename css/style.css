@@ -373,7 +373,11 @@ footer {
     }
     .home_page {
     }
-
+    .section1 .col_left .col_inner{
+        width:100vw;
+        position:relative;
+        left:-.875rem;
+    }
     .section1 .txt2 {
         font-size: calc(1.375rem + 1.5vw);
         margin-bottom: 1.5rem;
