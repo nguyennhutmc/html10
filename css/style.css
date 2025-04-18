@@ -264,13 +264,13 @@ header .list_nav .text{
     margin-bottom: 1.64rem;
 }
 
-.sub_page1 {
+.page2 {
 }
-
-.sub_page2 {
+.section1.style2{}
+.section4.style2 .txt1 sub{
+    font-size: 0.75rem;
 }
-
-.sub_page3 {
+.page3 {
 }
 
 footer {
@@ -409,14 +409,9 @@ footer {
 
     .section4 .item {
     }
-
-    .sub_page1 {
+    .page2 {
     }
-
-    .sub_page2 {
-    }
-
-    .sub_page3 {
+    .page3 {
     }
 
     footer {
