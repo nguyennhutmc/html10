@@ -32,7 +32,7 @@ function init() {
                     $dropdown.removeClass('show');
                     $dropdown.find('.dropdown-toggle').removeClass('show');
                     $dropdown.find('.dropdown-menu').removeClass('show');
-                }, 300);
+                }, 500);
             }
         );
     }

@@ -1,8 +1,8 @@
-<html lang="en" >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaj-Ariane Fischer</title>
+    <title>Psychotherapie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,246 +11,230 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            color: #343a40;
+            color: #333;
+            line-height: 1.6;
         }
-        .navbar {
+        .container {
+            max-width: 960px;
+        }
+        .header-nav {
             font-size: 0.8rem;
         }
-        .display-4 {
-            font-size: 2.5rem;
+        .header-nav a {
+            color: #000;
+            text-decoration: none;
         }
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
+        .main-section {
+            padding: 2rem 0;
         }
-        .btn-primary:hover {
-            background-color: #0069d9;
-            border-color: #0062cc;
+        .main-image {
+            background-color: #193A6B;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
-        .footer {
-            background-color: #0f4c75;
-            color: white;
+        .main-image img {
+            width: 100%;
+            display: block;
         }
-        .footer a {
+        .main-title {
+            color: #E59D26;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+         .side-image {
+            width: 100%;
+            height: auto;
+        }
+        .section-title {
+            color: #E59D26;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .contact-section {
+            background-color: #193A6B;
+            color: #fff;
+            padding: 2rem 0;
+        }
+        .contact-section h2 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .contact-section a {
             color: #fff;
             text-decoration: none;
         }
-        .footer a:hover {
-            text-decoration: underline;
+        .footer {
+            padding: 1rem 0;
+            font-size: 0.7rem;
         }
-        .golden {
-            color: #daa520;
+        .footer a {
+            color: #000;
+            text-decoration: none;
         }
-        .service-box {
-            background-color: #f8f9fa;
+        .btn-primary {
+            background-color: #E59D26;
+            border-color: #E59D26;
+            color: #fff;
         }
-        .service-box .btn {
-            background-color: #0f4c75;
-            border-color: #0f4c75;
-            color: white;
+        .btn-primary:hover {
+            background-color: #c8851f;
+            border-color: #c8851f;
         }
-        .service-box .btn:hover {
-            background-color: #0b3a58;
-            border-color: #0b3a58;
+        .prices-section {
+            background-color: #f0f5f9;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .prices-section p {
+            font-size: 0.9rem;
+        }
+        .prices-section ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        .prices-section li {
+            font-size: 0.9rem;
+        }
+        .contact-info {
+            font-size: 0.9rem;
+        }
+        .contact-info a {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .social-icons a {
+            color: #000;
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        .image-pyramid {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">THERAPIE & COACHING</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FÜR EINZELPERSONEN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FÜR UNTERNEHMEN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">KAJ-ARIANE-FISCHER</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="#">KONTAKT</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">AKTUELLES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PODCAST</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+        <header class="d-flex flex-wrap justify-content-between align-items-center py-3">
+            <ul class="nav header-nav">
+                <li class="nav-item"><a href="#" class="nav-link px-2">THERAPIE & COACHING</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">FÜR EINZELPERSONEN</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">FÜR UNTERNEHMEN</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">KAJ-ARIANE-FISCHER</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">KONTAKT</a></li>
+            </ul>
+            <ul class="nav header-nav">
+                <li class="nav-item"><a href="#" class="nav-link px-2">AKTUELLES</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">PODCAST</a></li>
+            </ul>
+        </header>
 
-    <div class="container">
-        <div class="row mt-4">
-            <div class="col-md-6">
-                <img src="https://placehold.co/500x600/ddd/fff?text=Image" alt="Portrait of Kaj-Ariane Fischer" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <h2 class="golden">THERAPIE & COACHING</h2>
-                <h1 class="display-4 golden">Veränderung beginnt, wenn wir uns selbst (wieder) finden.</h1>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-md-8">
-                <h2>KAJ-ARIANE FISCHER – COACH UND THERAPEUTIN</h2>
-                <p>Als Coach und Heilpraktikerin für Psychotherapie biete ich Ihnen ein vielseitiges Leistungsspektrum im Bereich Körperpsychotherapie, Persönlichkeitsentwicklung, Teamentwicklung und Leadership.</p>
-                <p>Nach langjähriger Erfahrung mit verschiedenen Menschen und Zielgruppen inner- und außerhalb von Unternehmen lege ich bei meiner Arbeit den Fokus auf Ihr Wohl und Ihr Anliegen – für Ihr Unternehmen, Ihr persönliches oder berufliches Ziel und den gemeinsamen Prozess.</p>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-md-4 mb-3">
-                <div class="service-box p-3">
-                    <div class="d-flex align-items-center">
-                        <img src="https://placehold.co/50x50/daa520/fff?text=%E2%9D%A4" alt="Heart icon" class="me-2">
-                        <h3>PSYCHOTHERAPIE</h3>
-                    </div>
-                    <h4>Ganzheitliche Körperpsychotherapie</h4>
-                    <p>In der ganzheitlichen Körperpsychotherapie nach dem Heilpraktikergesetz stehen Sie als Mensch mit Körper, Geist und Seele im Mittelpunkt. Belastende Erfahrungen hinterlassen oft Spuren, die Ihr Denken, Fühlen und Erleben beeinflussen. Gemeinsam erkunden wir, wie Sie diese Spuren verstehen und integrieren können, um wieder mehr Sicherheit und Verbundenheit zu spüren.</p>
-                    <a href="#" class="btn btn-sm">Psychotherapie</a>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="service-box p-3">
-                    <div class="d-flex align-items-center">
-                        <img src="https://placehold.co/50x50/daa520/fff?text=%E2%9A%A1" alt="Lightbulb icon" class="me-2">
-                        <h3>STÄRKEN-COACHING</h3>
-                    </div>
-                    <h4>Talent-Test mit Gallup CliftonStrengths</h4>
-                    <p>Der Schlüssel zu mehr Zufriedenheit und Erfolg liegt in Ihren Stärken. Mit dem Gallup CliftonStrengths®-Test erfahren Sie, welche Talente Sie auszeichnen – und wie Sie sie gezielt nutzen können, um Ihre Ziele zu erreichen.</p>
-                    <div>
-                        <a href="#" class="btn btn-sm">Für Einzelpersonen</a>
-                        <a href="#" class="btn btn-sm">Für Unternehmen</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="service-box p-3">
-                    <div class="d-flex align-items-center">
-                        <img src="https://placehold.co/50x50/daa520/fff?text=%E2%9D%A4" alt="Heart icon" class="me-2">
-                        <h3>STRESS-RESILIENZ</h3>
-                    </div>
-                    <h4>Herzintelligenzmethode von HeartMath®</h4>
-                    <p>Stress kann uns erschöpfen und langfristig krank machen. Nutzen Sie die Intelligenz des Herzens, um Stress abzubauen, die emotionale Balance zu fördern und die körperliche Gesundheit zu verbessern.</p>
-                    <div>
-                        <a href="#" class="btn btn-sm">Für Einzelpersonen</a>
-                        <a href="#" class="btn btn-sm">Für Unternehmen</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="service-box p-3">
-                    <div class="d-flex align-items-center">
-                        <img src="https://placehold.co/50x50/daa520/fff?text=%E2%98%B3" alt="Network icon" class="me-2">
-                        <h3>TEAMCOACHING</h3>
-                    </div>
-                    <h4>Stärken fördern, Kultur stärken, Erfolg steigern</h4>
-                    <p>Mit einem stärkenbasierten Coaching unterstütze ich Unternehmen, Führungskräfte und Teams dabei, eine positive und stärkenorientierte Unternehmenskultur zu schaffen. Dies fördert nicht nur die persönliche Entwicklung der Mitarbeitenden, sondern stärkt auch den Teamzusammenhalt und die Zusammenarbeit.</p>
-                    <a href="#" class="btn btn-sm">Teamcoaching</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-md-8">
-                <h2>LERNEN SIE MICH KENNEN!</h2>
-                <p>Ich bringe nicht nur langjährige Erfahrung als HR-Professional in einem globalen Konzern mit, sondern auch umfassende Qualifikationen als zertifizierter Gallup CliftonStrengths Coach und Co-Active Coach sowie als Heilpraktikerin für Psychotherapie und Soziologin.</p>
-                <p>Mein sicherer Kompass und intuitiver Zugang zu dem im Menschen, was heile ist, bilden die Basis meiner Arbeit. Nach diesem Leitstern arbeite ich. Methodisch fließen in meine Arbeit die verschiedenen Ansätze ein, die ich je nach Bedarf passgenau für Sie einsetze.</p>
-                <a href="#" class="btn btn-sm golden">Über mich</a>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col">
-                <h2 class="golden">News – lesens- und hörenswert</h2>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-md-4 mb-3">
-                <div class="service-box p-3">
-                    <div class="d-flex align-items-center">
-                        <img src="https://placehold.co/50x50/daa520/fff?text=%F0%9F%93%A6" alt="Podcast icon" class="me-2">
-                        <h3>PODCAST</h3>
-                    </div>
-                    <h4>„Einfach Stark"</h4>
-                    <p>Der Podcast mit Kaj-Ariane Fischer voller Inspiration für alle, die Ihr Leben so gestalten wollen, dass es sie erfüllt. Mit konkreten Tipps und Beispielen aus der Praxis wird alle zwei Wochen hinter die Kulissen des Lebens geschaut, um wirklich voranzukommen.</p>
-                    <p>Der Podcast inspiriert zum Nachdenken, bringt neue Ideen und macht Lust darauf, Neues ausprobieren und Veränderungen aktiv anzugehen.</p>
-                    <a href="#" class="btn btn-sm">Zum Podcast</a>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="service-box p-3">
-                    <div class="d-flex align-items-center">
-                        <img src="https://placehold.co/50x50/daa520/fff?text=%E2%98%91" alt="Blog icon" class="me-2">
-                        <h3>BLOG</h3>
-                    </div>
-                    <h4>Thema Blogbeitrag</h4>
-                    <p>Der Podcast mit Kaj-Ariane Fischer voller Inspiration für alle, die Ihr Leben so gestalten wollen, dass es sie erfüllt. Mit konkreten Tipps und Beispielen aus der Praxis wird alle zwei Wochen hinter die Kulissen des Lebens geschaut, um wirklich voranzukommen.</p>
-                    <p>Der Podcast inspiriert zum Nachdenken, bringt neue Ideen und macht Lust darauf, Neues ausprobieren und Veränderungen aktiv anzugehen.</p>
-                    <a href="#" class="btn btn-sm">Zum Beitrag</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="footer mt-5 py-5">
-        <div class="container">
+        <section class="main-section">
             <div class="row">
-                <div class="col-md-12">
-                    <h2>NEHMEN SIE KONTAKT MIT MIR AUF!</h2>
-                    <p>In einem ersten kostenlosen und unverbindlichen Gespräch lernen wir uns kennen und finden heraus, wie ich Sie unterstützen kann. Ich freue mich auf Sie!</p>
-                    <p>Ich arbeite in Frankfurt am Main sowie ortsunabhängig telefonisch oder virtuell. Gerne komme ich in Ihr Unternehmen. Ich arbeite in deutscher und englischer Sprache.</p>
+                <div class="col-md-7">
+                    <div class="main-image">
+                        <img src="https://placehold.co/600x400/193A6B/FFFFFF?text=Main+Image" alt="Abstract illustration of a head with a heart inside, representing psychotherapy">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <p style="color:#E59D26">PSYCHOTHERAPIE</p>
+                    <h1 class="main-title">Heilung und innere Stärke durch Verbundenheit mit sich selbst</h1>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col-md-6">
-                    <h4>KAJ-ARIANE FISCHER</h4>
-                    <p>Mobil: 0151 59 11 8709</p>
-                    <p>mail@KajArianeFischer.de</p>
-                </div>
-                <div class="col-md-6">
-                    <h4>PRAXIS</h4>
-                    <p>Alt-Niederursel 35</p>
-                    <p>60439 Frankfurt am Main</p>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12">
-                    <p>Impressum | Datenschutz</p>
-                </div>
-            </div>
-            <div class="row mt-2 align-items-center">
-                <div class="col-md-9">
-                    <img src="https://placehold.co/50x30/ddd/fff?text=G" alt="Strengths Coach logo" style="margin-right: 10px;">
-                    <img src="https://placehold.co/50x30/ddd/fff?text=CO" alt="Co-Active logo" style="margin-right: 10px;">
-                    <img src="https://placehold.co/50x30/ddd/fff?text=%E2%9D%A4" alt="HeartMath logo" style="margin-right: 10px;">
-                    <img src="https://placehold.co/50x30/ddd/fff?text=NI" alt="NI logo" style="margin-right: 10px;">
-                    <img src="https://placehold.co/50x30/ddd/fff?text=VIP" alt="VIP logo" style="margin-right: 10px;">
-                </div>
-                <div class="col-md-3 text-end">
-                    <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-xing fa-lg"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </section>
 
+        <section>
+            <h2 class="section-title">WARUM KÖRPERPSYCHOTHERAPIE?</h2>
+            <p>In der ganzheitlichen Körperpsychotherapie stehen Sie als Mensch mit Körper, Geist und Seele im Mittelpunkt. Belastende Erfahrungen hinterlassen oft Spuren, die Ihr Denken, Fühlen und Erleben beeinflussen. Gemeinsam erkunden wir, wie Sie diese Spuren verstehen und integrieren können, um wieder mehr Sicherheit und Verbundenheit zu spüren. Als Heilpraktikerin für Psychotherapie unterstütze ich Sie dabei, Ihre Selbstregulation zu stärken und bewusster mit Ihrer inneren Dynamik umzugehen.</p>
+            <h2 class="section-title">Warum traumasensibel und bindungsorientiert?</h2>
+            <p>Stress und belastende Erfahrungen können das Gefühl von Sicherheit in uns und unseren Beziehungen beeinträchtigen. Mit meinem traumasensiblen, bindungsorientierten Ansatz begleite ich Sie behutsam - ohne Druck oder Überforderung. In diesem geschützten Raum können Sie lernen, Blockaden zu lösen und sich sicherer in sich selbst zu fühlen. So entsteht nachhaltige Heilung, getragen von innerer Stärke und neuen Bindungserfahrungen.</p>
+        </section>
+
+        <section class="mt-4">
+            <p style="font-size: 1.5rem; color: #E59D26;">Alles, was du fühlst, ergibt Sinn. <span style="font-size: 0.8rem; color: #333;">(VERENA KÖNIG)</span></p>
+        </section>
+
+        <section class="mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title">MEIN ANSATZ - WAS IST BEI MIR ANDERS?</h2>
+                    <p>In meiner Arbeit lege ich besonderen Wert auf Verbundenheit, Akzeptanz und Augenhöhe. Oft erlebe ich, dass diese Haltung allein schon Heilung in Gang setzen kann. Ich unterstütze Sie, indem ich mich immer an die Seite Ihrer gesunden Kräfte stelle. Für mich gibt es keinen „Defekt", der repariert werden muss - stattdessen geht es darum, Erfahrungen zu integrieren und mehr der Mensch zu werden, der Sie im Inneren sind.</p>
+                    <h2 class="section-title">Wie arbeiten wir?</h2>
+                    <p>Wir betrachten Sie ganzheitlich. Das bedeutet, wir arbeiten sowohl „Top-Down" - mit Gedanken, Glaubenssystemen und Einsichten, als auch „Bottom-up" - mit Ihrem Körper, Ihrem Nervensystem und ihren Gefühlen. Diese Ebenen sind untrennbar miteinander verbunden und tragen gemeinsam zur Heilung bei.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://placehold.co/400x300/FFFFFF/000000?text=Pyramid+Image" alt="Diagram of a pyramid representing top-down and bottom-up approaches" class="image-pyramid">
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="section-title">FÜR WEN IST DIESE THERAPIE GEEIGNET?</h2>
+            <p>Ganzheitliche Körperpsychotherapie kann Ihnen helfen, wenn Sie:</p>
+            <ul>
+                <li>das Gefühl haben, innerlich festzustecken, als könnten Sie nicht vorwärtskommen, egal, wie sehr Sie sich bemühen.</li>
+                <li>angespannt, erschöpft oder antriebslos sind und sich der Tag schon nach dem Aufstehen überwältigend anfühlt.</li>
+                <li>Symptome spüren, die Sie nicht verstehen, wie innere Unruhe, Angst, körperliche Beschwerden oder ein beklemmendes Gefühl, das sich nicht lösen lässt.</li>
+                <li>sich wieder sicherer und wohler in Ihrem Körper fühlen möchten, um Kraft und Vertrauen in sich selbst zurückzugewinnen.</li>
+                <li>sich unverstanden oder wenig verbunden mit sich selbst und Ihrer Umgebung erleben, als wären Sie Außenseiter in Ihrem eigenen Leben.</li>
+                <li>sich leer oder fühlen - ohne festen Halt oder festen Boden unter den Füßen, während der Alltag immer schwerer zu bewältigen scheint.</li>
+            </ul>
+            <p>In Krisen oder nach belastenden Erfahrungen können Sie innere Stärke und neue Perspektiven entwickeln. Auch wenn Sie bereits andere therapeutische Wege ausprobiert haben, kann diese Herangehensweise eine neue Chance für Sie sein.</p>
+        </section>
+
+        <section class="mt-5">
+            <h2 style="font-size: 2rem; color: #E59D26;">Nutzen Sie die Chance für einen Neuanfang.</h2>
+            <p>Entdecken Sie mehr Leichtigkeit, Freude und Zuversicht in Ihrem Leben, spüren Sie wieder Verbundenheit mit sich selbst und anderen und finden Sie Sinn und Ganzheit. Lassen Sie uns gemeinsam den ersten Schritt machen – ich lade Sie herzlich ein, sich besser kennenzulernen und diesen Weg einzuschlagen.</p>
+            <p>Der erste Schritt: Melden Sie sich für ein unverbindliches Vorgespräch. Gemeinsam schauen wir, was Sie brauchen, und entwickeln Ihren individuellen Weg.</p>
+            <button type="button" class="btn btn-primary mt-3">Kontakt</button>
+        </section>
+
+        <section class="prices-section mt-4">
+            <h2 class="section-title">Preise & Modalitäten (online/Präsenz)</h2>
+            <p>Bitte beachten Sie, dass meine Praxis eine reine Privatzahlerpraxis ist. Bitte prüfen Sie, ob Sie über eine private Zusatzversicherung verfügen, oder Ihre private Krankenkasse die Kosten für Heilpraktiker für Psychotherapie übernimmt. Eine passende Rechnung stelle ich gerne aus.</p>
+            <ul>
+                <li>Einzelstunde: 80,-€/60 Min, 120,-€/90 Min.*</li>
+            </ul>
+            <p style="font-style: italic;">*Reduzierte Preise und unterschiedliche Zahlungsweisen sind nach Absprache möglich.</p>
+            <p>Wenn Sie unsicher sind, ob mein Ansatz für Sie passt, melden Sie sich gerne – gemeinsam finden wir heraus, ob ich die richtige Begleitung für Sie sein kann.</p>
+        </section>
+
+        <section class="contact-section mt-5">
+            <div class="container">
+                <h2>NEHMEN SIE KONTAKT MIT MIR AUF!</h2>
+                <p>In einem ersten kostenlosen und unverbindlichen Gespräch lernen wir uns kennen und finden heraus, wie ich Sie unterstützen kann. Ich freue mich auf Sie!</p>
+                <p>Ich arbeite in Frankfurt am Main sowie ortsunabhängig telefonisch oder virtuell. Gerne komme ich in Ihr Unternehmen. Ich arbeite in deutscher und englischer Sprache.</p>
+                <div class="row mt-4 contact-info">
+                    <div class="col-md-6">
+                        <h3>KAJ-ARIANE FISCHER</h3>
+                        <a href="tel:0151 59 11 8709">Mobil: 0151 59 11 8709</a>
+                        <a href="mailto:mail@KajArianeFischer.de">mail@KajArianeFischer.de</a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>PRAXIS</h3>
+                        <p>Alt-Niederursel 35<br>
+                           60439 Frankfurt am Main</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© Impressum | Datenschutz</p>
+            <ul class="d-flex align-items-center justify-content-center list-unstyled">
+                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=G" alt="Strengths Coach Logo"></li>
+                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=CO" alt="Co-Active Logo"></li>
+                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=H" alt="HeartMath Logo"></li>
+                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=NI" alt="NI Logo"></li>
+                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=VFP" alt="VFP Logo"></li>
+            </ul>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -54,35 +54,42 @@ header .dropdown-toggle::after {
 header .dropdown-toggle.show::after {
     visibility: visible;
 }
-header .list_nav{
-    padding-top:0.625rem;
-    border-top:1px solid #7397AB;
+
+header .list_nav {
+    padding-top: 0.625rem;
+    border-top: 1px solid #7397AB;
 }
+
 header .list_nav .item {
     width: 9.375rem;
     text-align: center;
-    border-left:1px solid #7397AB;
+    border-left: 1px solid #7397AB;
 }
-header .list_nav .item:last-child{
-    border-right:1px solid #7397AB;
+
+header .list_nav .item:last-child {
+    border-right: 1px solid #7397AB;
 }
-header .list_nav .icon .img{
+
+header .list_nav .icon .img {
     width: 2.73013rem;
     height: 2.73019rem;
-    border-radius:50rem;
-    margin-bottom:.94rem;
+    border-radius: 50rem;
+    margin-bottom: .94rem;
 }
-header .list_nav .txt1{
+
+header .list_nav .txt1 {
     color: #FEB952;
     font-size: 0.71875rem;
-    line-height:121.739%;
-    margin-bottom:.64rem;
+    line-height: 121.739%;
+    margin-bottom: .64rem;
 }
-header .list_nav .text{
-    font-weight:600;
-    margin-bottom:.61rem;
-    line-height:1.2;
+
+header .list_nav .text {
+    font-weight: 600;
+    margin-bottom: .61rem;
+    line-height: 1.2;
 }
+
 .btn {
     border: 0;
     --bs-border-radius: .875rem;
@@ -111,8 +118,7 @@ header .list_nav .text{
     --bs-btn-active-border-color: #FFC46C;
 }
 
-.home_page {
-}
+.home_page {}
 
 .section1 {
     padding-bottom: 1.875rem;
@@ -132,9 +138,11 @@ header .list_nav .text{
 
 .section1 .txt2 {
     color: #FEB952;
-    font-family: "PT Serif";
+    font-family: "PT Serif";247
     font-size: 2.5rem;
-    line-height: 1.25; /* 125% */
+    font-weight:400;;
+    line-height: 1.25;
+    /* 125% */
 }
 
 .section1 .txt3 {
@@ -236,12 +244,13 @@ header .list_nav .text{
     top: .73rem;
 }
 
-.section4 .txt1 {
+.section4 .txt1,.title_big{
     color: #FEB952;
     font-family: "PT Serif";
     font-size: 2.5rem;
     line-height: 1;
-    margin-bottom: 2.66rem;
+    margin-bottom: 3.11rem;
+    font-weight:400;
 }
 
 .section4 .txt2 {
@@ -264,17 +273,38 @@ header .list_nav .text{
     margin-bottom: 1.64rem;
 }
 
-.page2 {
+.page2 {}
+.section1.style2{
+    padding-bottom:2.82rem;
 }
-.section1.style2{}
-.section4.style2 .txt1 sub{
+.section1.style2 .txt4 {
+    color: #143952;
     font-size: 0.75rem;
-}
-.page3 {
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom:.86rem;
 }
 
-footer {
+.title_big sub {
+    font-size: 0.75rem;
 }
+.section2.style2 .item .box_text{
+    background:transparent;
+    padding-top:0;
+    padding-right:0;
+}
+.section2.style2 .item .txt1{
+    margin-bottom:1.8rem;
+}
+.section2.style2 .item .txt4{
+    font-size:.75rem;
+    color: #143952;
+    margin-bottom:.85rem;
+    font-weight:700;
+}
+.page3 {}
+
+footer {}
 
 .footer_top {
     background: #143952;
@@ -307,7 +337,7 @@ footer {
     line-height: 1;
 }
 
-.footer_top .address .item p + p {
+.footer_top .address .item p+p {
     margin-top: .5rem;
     line-height: 1;
 }
@@ -338,8 +368,7 @@ footer {
 
 /* mobile */
 @media (max-width: 991.98px) {
-    header {
-    }
+    header {}
 
     header .navbar {
         --bs-navbar-padding-y: 0.875rem;
@@ -347,37 +376,43 @@ footer {
     }
 
     header .navbar-nav {
-        gap:1rem;
+        gap: 1rem;
     }
-    header .dropdown-toggle{
-        position:relative;
-        display:inline;
-    }
-    header .dropdown-toggle::after{
 
+    header .dropdown-toggle {
+        position: relative;
+        display: inline;
     }
-    header .navbar-nav .dropdown-menu{
-        width:100vw;
-        position:relative;
-        left:-1rem;
-        --bs-dropdown-spacer:.875rem;
+
+    header .dropdown-toggle::after {}
+
+    header .navbar-nav .dropdown-menu {
+        width: 100vw;
+        position: relative;
+        left: -1rem;
+        --bs-dropdown-spacer: .875rem;
     }
-    header .list_nav .item{
+
+    header .list_nav .item {
         width: 7.8125rem;
     }
-    header .list_nav .item:last-child{
-        width:7.75rem;
+
+    header .list_nav .item:last-child {
+        width: 7.75rem;
     }
-    header .list_nav .text{
-        font-size:0.5625rem;
+
+    header .list_nav .text {
+        font-size: 0.5625rem;
     }
-    .home_page {
+
+    .home_page {}
+
+    .section1 .col_left .col_inner {
+        width: 100vw;
+        position: relative;
+        left: -.875rem;
     }
-    .section1 .col_left .col_inner{
-        width:100vw;
-        position:relative;
-        left:-.875rem;
-    }
+
     .section1 .txt2 {
         font-size: calc(1.375rem + 1.5vw);
         margin-bottom: 1.5rem;
@@ -403,19 +438,17 @@ footer {
         padding-right: 0;
     }
 
-    .section4 .txt1 {
+    .section4 .txt1,.title_big{
         font-size: calc(1.325rem + .9vw);
     }
 
-    .section4 .item {
-    }
-    .page2 {
-    }
-    .page3 {
-    }
+    .section4 .item {}
 
-    footer {
-    }
+    .page2 {}
+
+    .page3 {}
+
+    footer {}
 
     .footer_top {
         width: 100vw;
@@ -437,8 +470,7 @@ footer {
 
 /* desktop */
 @media (min-width: 992px) {
-    header {
-    }
+    header {}
 
     header .navbar-expand-lg .navbar-nav {
         gap: 1.375rem;
@@ -448,7 +480,7 @@ footer {
         position: relative;
     }
 
-    header .navbar-expand-lg .navbar-nav .nav-item + .nav-item .nav-link:before {
+    header .navbar-expand-lg .navbar-nav .nav-item+.nav-item .nav-link:before {
         content: "|";
         position: absolute;
         color: var(--bs-nav-link-color);
@@ -467,12 +499,11 @@ footer {
     header .dropdown-menu {
         width: 100vw;
         margin-top: 0 !important;
-        left:0;
-        top:100%;
+        left: 0;
+        top: 100%;
     }
 
-    .home_page {
-    }
+    .home_page {}
 
     .section1 .banner_main {
         width: 35.34375rem;
@@ -514,17 +545,21 @@ footer {
         /*min-height: 17.71481rem;*/
     }
 
-    .sub_page1 {
+    .page2 {}
+    .section2.style2 .list{
+        padding-top:2.5rem;
+        padding-bottom:2.5rem;
     }
+    .section2.style2 .item{
+        min-height:19.125rem;
+    }
+    .section2.style2 .item .image{
+        width: 20.1875rem;
+        left:27.875rem;
+    }
+    .page3 {}
 
-    .sub_page2 {
-    }
-
-    .sub_page3 {
-    }
-
-    footer {
-    }
+    footer {}
 
     .footer_top {
         padding-left: 9.31rem;
@@ -532,5 +567,4 @@ footer {
     }
 }
 
-@media (min-width: 1920px) {
-}
+@media (min-width: 1920px) {}
