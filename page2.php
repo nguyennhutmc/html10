@@ -17,6 +17,7 @@
                </div>
                <div class="col-lg col_right">
                   <div class="col_inner">
+                  <div class="icon position-absolute"><img src="images/icon_thumb_01.png" alt="" class="img w-100 rounded-circle"></div>
                      <h2 class="txt1">PSYCHOTHERAPIE</h2>
                      <h1 class="txt2">Heilung und
                         innere Stärke

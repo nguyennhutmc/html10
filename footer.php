@@ -29,7 +29,7 @@
             <div class="nav_simple">
             <p><a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
             </div>
-            <div class="row g-0 justify-content-between list_nav">
+            <div class="row g-0 justify-content-between list_nav pb-4 pb-lg-5">
                 <div class="col-lg-auto col_left">
                     <div class="hstack list_logo">
                         <a href="#"><img class="logo_brand" src="images/brand_01.png" alt=""></a>

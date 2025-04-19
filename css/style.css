@@ -127,7 +127,9 @@ header .list_nav .text {
 .section1 .banner_main {
     margin-bottom: 2rem;
 }
-
+.section1 .col_right{
+    position:relative;
+}
 .section1 .txt1 {
     color: #143952;
     font-weight: 700;
@@ -376,10 +378,6 @@ footer {}
     gap: 1.5rem;
 }
 
-.footer_bot .list_nav {
-    padding-bottom: 3rem;
-}
-
 .footer_bot .logo_brand {
     height: 3.0625rem;
     object-fit: contain;
@@ -477,14 +475,20 @@ footer {}
     }
 
     .section4 .item {}
+    .page2 {}
     .section2.style2 .item .image{
         margin-bottom:2rem;
     }
     .section2.style2 .item .box_text{
         padding-left:0;
     }
-    .page2 {}
-
+    .section3.style2 .prices-section{
+        position:relative;
+        width:100vw;
+        left:-.875rem;
+        padding-left:.875rem;
+        padding-right:.875rem;
+    }
     .page3 {}
 
     footer {}
@@ -552,7 +556,12 @@ footer {}
     .section1 .col_right {
         padding-top: 6.44rem;
     }
-
+    .section1 .col_right .icon{
+        width: 3.809rem;
+        right:2.86rem;
+        top:1.25rem;
+        border-radius:50rem;
+    }
     .section1 .col_bottom {
         padding-left: 9.31rem;
         padding-right: 18.25rem;
