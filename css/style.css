@@ -138,9 +138,9 @@ header .list_nav .text {
 
 .section1 .txt2 {
     color: #FEB952;
-    font-family: "PT Serif";247
+    font-family: "PT Serif";
     font-size: 2.5rem;
-    font-weight:400;;
+    font-weight: 400;
     line-height: 1.25;
     /* 125% */
 }
@@ -200,7 +200,9 @@ header .list_nav .text {
 .section2 .item .text {
     margin-bottom: 1.2rem;
 }
-
+.section2 .item .text:last-child{
+    margin-bottom:0;
+}
 .section2 .hstack.gap-x {
     gap: .8rem;
 }
@@ -244,13 +246,14 @@ header .list_nav .text {
     top: .73rem;
 }
 
-.section4 .txt1,.title_big{
+.section4 .txt1,
+.title_big {
     color: #FEB952;
     font-family: "PT Serif";
     font-size: 2.5rem;
     line-height: 1;
     margin-bottom: 3.11rem;
-    font-weight:400;
+    font-weight: 400;
 }
 
 .section4 .txt2 {
@@ -274,34 +277,55 @@ header .list_nav .text {
 }
 
 .page2 {}
-.section1.style2{
-    padding-bottom:2.82rem;
+
+.section1.style2 {
+    padding-bottom: 2.82rem;
 }
+
 .section1.style2 .txt4 {
     color: #143952;
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 100%;
-    margin-bottom:.86rem;
+    margin-bottom: .86rem;
 }
 
 .title_big sub {
     font-size: 0.75rem;
 }
-.section2.style2 .item .box_text{
-    background:transparent;
-    padding-top:0;
-    padding-right:0;
+
+.section2.style2 .item .box_text {
+    background: transparent;
+    padding-top: 0;
+    padding-right: 0;
 }
-.section2.style2 .item .txt1{
-    margin-bottom:1.8rem;
+
+.section2.style2 .item .txt1 {
+    margin-bottom: 1.8rem;
 }
-.section2.style2 .item .txt4{
-    font-size:.75rem;
+
+.section2.style2 .item .txt4 {
+    font-size: .75rem;
     color: #143952;
-    margin-bottom:.85rem;
-    font-weight:700;
+    margin-bottom: .85rem;
+    font-weight: 700;
 }
+
+.section3.style2 .prices-section {
+    background: #E0E9EF;
+    padding: 1.42rem 1.3rem 2rem;
+    margin-bottom: 1.99rem;
+}
+
+.section3.style2 .prices-section .txt2 {
+    color: #143952;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 100%;
+    /* 0.75rem */
+    margin-bottom: 1.33rem;
+}
+
 .page3 {}
 
 footer {}
@@ -405,6 +429,15 @@ footer {}
         font-size: 0.5625rem;
     }
 
+    header .offcanvas {
+        --bs-offcanvas-width: 100vw;
+        --bs-offcanvas-padding-x: .875rem;
+    }
+
+    header .offcanvas-header .btn-close {
+        background-position: left center;
+    }
+
     .home_page {}
 
     .section1 .col_left .col_inner {
@@ -438,12 +471,18 @@ footer {}
         padding-right: 0;
     }
 
-    .section4 .txt1,.title_big{
+    .section4 .txt1,
+    .title_big {
         font-size: calc(1.325rem + .9vw);
     }
 
     .section4 .item {}
-
+    .section2.style2 .item .image{
+        margin-bottom:2rem;
+    }
+    .section2.style2 .item .box_text{
+        padding-left:0;
+    }
     .page2 {}
 
     .page3 {}
@@ -546,16 +585,26 @@ footer {}
     }
 
     .page2 {}
-    .section2.style2 .list{
-        padding-top:2.5rem;
-        padding-bottom:2.5rem;
+
+    .section2.style2 .list {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
     }
-    .section2.style2 .item{
-        min-height:19.125rem;
+
+    .section2.style2 .item {
+        min-height: 19.125rem;
     }
-    .section2.style2 .item .image{
+
+    .section2.style2 .item .image {
         width: 20.1875rem;
-        left:27.875rem;
+        left: 27.875rem;
+    }
+
+    .section3.style2 .col_inner {
+        padding-right: 19.25rem;
+    }
+    .section3.style2 .prices-section{
+        width: 36.33194rem;
     }
     .page3 {}
 
