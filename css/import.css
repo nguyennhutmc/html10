@@ -105,7 +105,9 @@ input {
 a {
     color: inherit;
 }
-
+a:hover{
+    color:var(--color-primary)
+}
 p, dl, ol, ul {
     margin-bottom: 0;
 }
@@ -199,7 +201,7 @@ table, .table {
 @media (min-width: 992px) {
     html {
         /*16px~1920px*/
-        font-size:16px;
+        font-size:20px;
     }
 
     body {
