@@ -9,7 +9,7 @@
                      <div class="banner_main">
                         <div class="swiper">
                            <div class="swiper-wrapper">
-                              <div class="swiper-slide"><img class="w-100" src="images/banner3.png" alt=""></div>
+                              <div class="swiper-slide"><img class="w-100" src="images/banner4.png" alt=""></div>
                            </div>
                         </div>
                      </div>
