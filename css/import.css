@@ -157,9 +157,11 @@ table, .table {
 .container {
     position: relative;
 }
-
+.text-editor{
+    line-height: 1.556;
+}
 .text-editor p{
-    margin-bottom:.86rem;
+    margin-bottom:.84rem;
 }
 .text-editor p:last-child{
     margin-bottom:0;

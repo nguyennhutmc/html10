@@ -1,8 +1,8 @@
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psychotherapie</title>
+    <title>Stärken-Coaching</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,230 +11,253 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            color: #333;
-            line-height: 1.6;
+            color: #343a40;
         }
+
         .container {
             max-width: 960px;
         }
-        .header-nav {
-            font-size: 0.8rem;
-        }
-        .header-nav a {
-            color: #000;
-            text-decoration: none;
-        }
-        .main-section {
+
+        .section {
             padding: 2rem 0;
         }
-        .main-image {
-            background-color: #193A6B;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        .main-image img {
-            width: 100%;
-            display: block;
-        }
-        .main-title {
-            color: #E59D26;
-            font-size: 2rem;
+
+        .package {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 0.25rem;
             margin-bottom: 1rem;
         }
-         .side-image {
-            width: 100%;
-            height: auto;
-        }
-        .section-title {
-            color: #E59D26;
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-        .contact-section {
-            background-color: #193A6B;
+
+        .btn-primary {
+            background-color: #f0ad4e;
+            border-color: #f0ad4e;
             color: #fff;
-            padding: 2rem 0;
         }
-        .contact-section h2 {
+
+        .btn-primary:hover {
+            background-color: #e09a3d;
+            border-color: #e09a3d;
+        }
+
+        .contact-info {
+            background-color: #003559;
             color: #fff;
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+            padding: 2rem;
         }
-        .contact-section a {
+
+        .contact-info a {
             color: #fff;
             text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
         }
         .footer {
             padding: 1rem 0;
-            font-size: 0.7rem;
-        }
-        .footer a {
-            color: #000;
-            text-decoration: none;
-        }
-        .btn-primary {
-            background-color: #E59D26;
-            border-color: #E59D26;
-            color: #fff;
-        }
-        .btn-primary:hover {
-            background-color: #c8851f;
-            border-color: #c8851f;
-        }
-        .prices-section {
-            background-color: #f0f5f9;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        .prices-section p {
-            font-size: 0.9rem;
-        }
-        .prices-section ul {
-            padding-left: 20px;
-            margin-bottom: 0;
-        }
-        .prices-section li {
-            font-size: 0.9rem;
-        }
-        .contact-info {
-            font-size: 0.9rem;
-        }
-        .contact-info a {
-            display: block;
-            margin-bottom: 5px;
-        }
-        .social-icons a {
-            color: #000;
-            margin-right: 10px;
-            font-size: 1.2rem;
-        }
-        .image-pyramid {
-            width: 100%;
-            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-between align-items-center py-3">
-            <ul class="nav header-nav">
-                <li class="nav-item"><a href="#" class="nav-link px-2">THERAPIE & COACHING</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2">FÜR EINZELPERSONEN</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2">FÜR UNTERNEHMEN</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2">KAJ-ARIANE-FISCHER</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2">KONTAKT</a></li>
-            </ul>
-            <ul class="nav header-nav">
-                <li class="nav-item"><a href="#" class="nav-link px-2">AKTUELLES</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2">PODCAST</a></li>
-            </ul>
-        </header>
-
-        <section class="main-section">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="main-image">
-                        <img src="https://placehold.co/600x400/193A6B/FFFFFF?text=Main+Image" alt="Abstract illustration of a head with a heart inside, representing psychotherapy">
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <p style="color:#E59D26">PSYCHOTHERAPIE</p>
-                    <h1 class="main-title">Heilung und innere Stärke durch Verbundenheit mit sich selbst</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">THERAPIE & COACHING I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FÜR EINZELPERSONEN I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FÜR UNTERNEHMEN I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KAJ-ARIANE-FISCHER I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KONTAKT</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AKTUELLES I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PODCAST</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </nav>
 
-        <section>
-            <h2 class="section-title">WARUM KÖRPERPSYCHOTHERAPIE?</h2>
-            <p>In der ganzheitlichen Körperpsychotherapie stehen Sie als Mensch mit Körper, Geist und Seele im Mittelpunkt. Belastende Erfahrungen hinterlassen oft Spuren, die Ihr Denken, Fühlen und Erleben beeinflussen. Gemeinsam erkunden wir, wie Sie diese Spuren verstehen und integrieren können, um wieder mehr Sicherheit und Verbundenheit zu spüren. Als Heilpraktikerin für Psychotherapie unterstütze ich Sie dabei, Ihre Selbstregulation zu stärken und bewusster mit Ihrer inneren Dynamik umzugehen.</p>
-            <h2 class="section-title">Warum traumasensibel und bindungsorientiert?</h2>
-            <p>Stress und belastende Erfahrungen können das Gefühl von Sicherheit in uns und unseren Beziehungen beeinträchtigen. Mit meinem traumasensiblen, bindungsorientierten Ansatz begleite ich Sie behutsam - ohne Druck oder Überforderung. In diesem geschützten Raum können Sie lernen, Blockaden zu lösen und sich sicherer in sich selbst zu fühlen. So entsteht nachhaltige Heilung, getragen von innerer Stärke und neuen Bindungserfahrungen.</p>
-        </section>
-
-        <section class="mt-4">
-            <p style="font-size: 1.5rem; color: #E59D26;">Alles, was du fühlst, ergibt Sinn. <span style="font-size: 0.8rem; color: #333;">(VERENA KÖNIG)</span></p>
-        </section>
-
-        <section class="mt-5">
+        <section class="section">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="section-title">MEIN ANSATZ - WAS IST BEI MIR ANDERS?</h2>
-                    <p>In meiner Arbeit lege ich besonderen Wert auf Verbundenheit, Akzeptanz und Augenhöhe. Oft erlebe ich, dass diese Haltung allein schon Heilung in Gang setzen kann. Ich unterstütze Sie, indem ich mich immer an die Seite Ihrer gesunden Kräfte stelle. Für mich gibt es keinen „Defekt", der repariert werden muss - stattdessen geht es darum, Erfahrungen zu integrieren und mehr der Mensch zu werden, der Sie im Inneren sind.</p>
-                    <h2 class="section-title">Wie arbeiten wir?</h2>
-                    <p>Wir betrachten Sie ganzheitlich. Das bedeutet, wir arbeiten sowohl „Top-Down" - mit Gedanken, Glaubenssystemen und Einsichten, als auch „Bottom-up" - mit Ihrem Körper, Ihrem Nervensystem und ihren Gefühlen. Diese Ebenen sind untrennbar miteinander verbunden und tragen gemeinsam zur Heilung bei.</p>
+                    <img src="https://placehold.co/500x400" alt="Illustration of a head with a lightbulb inside, representing ideas and strengths." class="img-fluid">
                 </div>
                 <div class="col-md-6">
-                    <img src="https://placehold.co/400x300/FFFFFF/000000?text=Pyramid+Image" alt="Diagram of a pyramid representing top-down and bottom-up approaches" class="image-pyramid">
+                    <h2>STÄRKEN-COACHING</h2>
+                    <h1>Entdecken und nutzen Sie Ihre natürlichen Stärken!</h1>
                 </div>
             </div>
         </section>
 
-        <section class="mt-5">
-            <h2 class="section-title">FÜR WEN IST DIESE THERAPIE GEEIGNET?</h2>
-            <p>Ganzheitliche Körperpsychotherapie kann Ihnen helfen, wenn Sie:</p>
+        <section class="section">
+            <h2>WARUM STÄRKEN-COACHING?</h2>
+            <p>Veränderungen, privat oder beruflich, machen es oft schwer, den eigenen Weg klar zu sehen.
+                Wir neigen dazu, auf Schwächen und Hindernisse zu schauen. Doch der Schlüssel zu mehr
+                Zufriedenheit und Erfolg liegt in unseren Stärken. Mit dem bewährten Gallup CliftonStrengths®-
+                Test erfahren Sie, welche Talente Sie auszeichnen- und wie Sie sie gezielt nutzen können, um
+                Ihre Ziele zu erreichen.</p>
+            <p><b>Was Sie erwartet:</b></p>
+            <p><b>Fundierter Test:</b> Der Gallup CliftonStrengths-Test zeigt Ihnen wissenschaftlich fundiert und
+                schwarz auf weiß Ihre Top-Talente.</p>
+            <p><b>Sich selbst besser verstehen:</b> Sie bekommen klare Hinweise dazu, welcher Blick und welche
+                Bedürfnisse in Ihnen aktiv sind.</p>
+            <p><b>Individuelles Coaching:</b> Auf Ihre Situation zugeschnitten, erarbeiten wir, wie Sie Ihre Talente
+                entfalten und nutzen können.</p>
+            <p><b>Ihre Vorteile:</b></p>
             <ul>
-                <li>das Gefühl haben, innerlich festzustecken, als könnten Sie nicht vorwärtskommen, egal, wie sehr Sie sich bemühen.</li>
-                <li>angespannt, erschöpft oder antriebslos sind und sich der Tag schon nach dem Aufstehen überwältigend anfühlt.</li>
-                <li>Symptome spüren, die Sie nicht verstehen, wie innere Unruhe, Angst, körperliche Beschwerden oder ein beklemmendes Gefühl, das sich nicht lösen lässt.</li>
-                <li>sich wieder sicherer und wohler in Ihrem Körper fühlen möchten, um Kraft und Vertrauen in sich selbst zurückzugewinnen.</li>
-                <li>sich unverstanden oder wenig verbunden mit sich selbst und Ihrer Umgebung erleben, als wären Sie Außenseiter in Ihrem eigenen Leben.</li>
-                <li>sich leer oder fühlen - ohne festen Halt oder festen Boden unter den Füßen, während der Alltag immer schwerer zu bewältigen scheint.</li>
+                <li>Mehr Selbstvertrauen durch das Wissen um Ihre Talente</li>
+                <li>Klare Orientierung in Zeiten von Veränderung</li>
+                <li>Praktische Hinweise und Übungen, um Ihre Ziele zu erreichen</li>
             </ul>
-            <p>In Krisen oder nach belastenden Erfahrungen können Sie innere Stärke und neue Perspektiven entwickeln. Auch wenn Sie bereits andere therapeutische Wege ausprobiert haben, kann diese Herangehensweise eine neue Chance für Sie sein.</p>
         </section>
 
-        <section class="mt-5">
-            <h2 style="font-size: 2rem; color: #E59D26;">Nutzen Sie die Chance für einen Neuanfang.</h2>
-            <p>Entdecken Sie mehr Leichtigkeit, Freude und Zuversicht in Ihrem Leben, spüren Sie wieder Verbundenheit mit sich selbst und anderen und finden Sie Sinn und Ganzheit. Lassen Sie uns gemeinsam den ersten Schritt machen – ich lade Sie herzlich ein, sich besser kennenzulernen und diesen Weg einzuschlagen.</p>
-            <p>Der erste Schritt: Melden Sie sich für ein unverbindliches Vorgespräch. Gemeinsam schauen wir, was Sie brauchen, und entwickeln Ihren individuellen Weg.</p>
-            <button type="button" class="btn btn-primary mt-3">Kontakt</button>
+        <section class="section">
+            <h2>SO GEHT'S:</h2>
+            <ol>
+                <li><b>Entdecken:</b>
+                    <br>Mit dem CliftonStrengths-Test ermitteln Sie Ihr persönliches Talentprofil.</li>
+                <li><b>Vertiefen:</b>
+                    <br>Im Vertiefungs-Coaching lernen Sie die Bedeutung Ihrer Talente verstehen und lieben.</li>
+                <li><b>Anwenden:</b>
+                    <br>Im Coachingprozess lernen Sie, wie Ihre Talente im Alltag wirken und wie Sie diese für sich selbst
+                    bewusst einsetzten.</li>
+            </ol>
         </section>
 
-        <section class="prices-section mt-4">
-            <h2 class="section-title">Preise & Modalitäten (online/Präsenz)</h2>
-            <p>Bitte beachten Sie, dass meine Praxis eine reine Privatzahlerpraxis ist. Bitte prüfen Sie, ob Sie über eine private Zusatzversicherung verfügen, oder Ihre private Krankenkasse die Kosten für Heilpraktiker für Psychotherapie übernimmt. Eine passende Rechnung stelle ich gerne aus.</p>
-            <ul>
-                <li>Einzelstunde: 80,-€/60 Min, 120,-€/90 Min.*</li>
-            </ul>
-            <p style="font-style: italic;">*Reduzierte Preise und unterschiedliche Zahlungsweisen sind nach Absprache möglich.</p>
-            <p>Wenn Sie unsicher sind, ob mein Ansatz für Sie passt, melden Sie sich gerne – gemeinsam finden wir heraus, ob ich die richtige Begleitung für Sie sein kann.</p>
-        </section>
-
-        <section class="contact-section mt-5">
-            <div class="container">
-                <h2>NEHMEN SIE KONTAKT MIT MIR AUF!</h2>
-                <p>In einem ersten kostenlosen und unverbindlichen Gespräch lernen wir uns kennen und finden heraus, wie ich Sie unterstützen kann. Ich freue mich auf Sie!</p>
-                <p>Ich arbeite in Frankfurt am Main sowie ortsunabhängig telefonisch oder virtuell. Gerne komme ich in Ihr Unternehmen. Ich arbeite in deutscher und englischer Sprache.</p>
-                <div class="row mt-4 contact-info">
-                    <div class="col-md-6">
-                        <h3>KAJ-ARIANE FISCHER</h3>
-                        <a href="tel:0151 59 11 8709">Mobil: 0151 59 11 8709</a>
-                        <a href="mailto:mail@KajArianeFischer.de">mail@KajArianeFischer.de</a>
+        <section class="section">
+            <h2>WÄHLEN SIE DAS FÜR SIE PASSENDE PAKET:</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="package">
+                        <h4>1</h4>
+                        <h3>Stärken-Analyse Basis</h3>
+                        <p>Der erste Schritt zu Ihren Talenten</p>
+                        <p>Gallup CliftonStrengths-Test:<br>
+                            Wissenschaftlich fundierter Test zur Identifikation
+                            Ihrer Top-Talente</p>
+                        <p>Auswerten und Vertiefen (90 Minuten):<br>
+                            In einem individuellen Gespräch (online möglich)
+                            besprechen wir Ihre Ergebnisse und lernen ihre
+                            Wirkung verstehen.</p>
+                        <p><b>Investition: 297,- € inkl. MwSt</b></p>
                     </div>
-                    <div class="col-md-6">
-                        <h3>PRAXIS</h3>
-                        <p>Alt-Niederursel 35<br>
-                           60439 Frankfurt am Main</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="package">
+                        <h4>2</h4>
+                        <h3>Stärken-Analyse Plus</h3>
+                        <p>Mehr Klarheit und gezielter Einsatz im Alltag</p>
+                        <p>Alles aus dem Basis-Paket</p>
+                        <p>+ Vertiefungsgespräch (60 Minuten):<br>
+                            Wie setzen Sie Ihre Stärken konkret in Alltag und
+                            Entscheidungen ein? Wir definieren erste Schritte.</p>
+                        <p>• Persönliches Stärken-Handbuch:<br>
+                            Eine individuelle Zusammenfassung mit Tipps, wie
+                            Sie Ihre Stärken im Alltag optimal nutzen</p>
+                        <p><b>Investition: 445,- € inkl. MwSt</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="package">
+                        <h4>3</h4>
+                        <h3>Stärken-Entfaltung Intensiv</h3>
+                        <p>Ihre Talente als Kraftquelle für Wachstum</p>
+                        <p>Alles aus dem Plus-Paket</p>
+                        <p>+ Intensiv-Coaching (3 Sitzungen à 60 Minuten):<br>
+                            In einem vertiefenden Prozess entwickeln wir
+                            Strategien, um Ihre Stärken gezielt für Entscheidungen
+                            und Übergänge zu nutzen.</p>
+                        <p><b>Investition: 969,- € inkl. MwSt</b></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="package">
+                        <h4>4</h4>
+                        <h3>Ganz individuell</h3>
+                        <p>Keines der Pakete passt zu Ihrer Situation?</p>
+                        <p>Melden Sie sich - wir entwickeln gemeinsam ein
+                            Angebot, das genau auf Ihre Bedürfnisse und Ziele
+                            zugeschnitten ist.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-muted">© Impressum | Datenschutz</p>
-            <ul class="d-flex align-items-center justify-content-center list-unstyled">
-                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=G" alt="Strengths Coach Logo"></li>
-                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=CO" alt="Co-Active Logo"></li>
-                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=H" alt="HeartMath Logo"></li>
-                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=NI" alt="NI Logo"></li>
-                <li><img src="https://placehold.co/50x30/FFFFFF/000000?text=VFP" alt="VFP Logo"></li>
-            </ul>
-            <ul class="nav col-md-4 justify-content-end">
-                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
+        <section class="section">
+            <h2>SIND SIE NEUGIERIG?</h2>
+            <p>Machen Sie den ersten Schritt und vereinbaren Sie ein kostenloses Vorgespräch.</p>
+            <button class="btn btn-primary">Kontakt</button>
+        </section>
+
+        <section class="section">
+            <h1>Stärken verschenken!</h1>
+            <h2>VERSCHENKEN SIE EIN STÄRKEN-COACHING!</h2>
+            <p>Sie sind auf der Suche nach einem Geschenk für einen lieben Menschen?
+                Verschenken Sie einen Gutschein für ein Stärken-Coaching. Denn, was gibt es Schöneres, als
+                einem Menschen wertvolle Erkenntnisse zu schenken?</p>
+            <button class="btn btn-primary">Jetzt bestellen</button>
+        </section>
+
+        <section class="section">
+            <img src="https://placehold.co/600x300" alt="Gutschein Stärken Coaching" class="img-fluid">
+        </section>
+
+        <section class="contact-info">
+            <h2>NEHMEN SIE KONTAKT MIT MIR AUF!</h2>
+            <p>In einem ersten kostenlosen und unverbindlichen Gespräch lernen wir uns kennen und finden
+                heraus, wie ich Sie unterstützen kann. Ich freue mich auf Sie!</p>
+            <p>Ich arbeite in Frankfurt am Main sowie ortsunabhängig telefonisch oder virtuell. Gerne komme
+                ich in Ihr Unternehmen. Ich arbeite in deutscher und englischer Sprache.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>KAJ-ARIANE FISCHER</b><br>
+                        Mobil: 0151 59 11 8709<br>
+                        <a href="mailto:mail@KajArianeFischer.de">mail@KajArianeFischer.de</a></p>
+                </div>
+                <div class="col-md-6">
+                    <p><b>PRAXIS</b><br>
+                        Alt-Niederursel 35<br>
+                        60439 Frankfurt am Main</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Impressum | Datenschutz</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <img src="https://placehold.co/50x50" alt="Gallup Zertifizierter Strengths Coach" class="img-fluid me-2">
+                    <img src="https://placehold.co/50x50" alt="Co-Active Training Institute" class="img-fluid me-2">
+                    <img src="https://placehold.co/50x50" alt="HeartMath" class="img-fluid me-2">
+                    <img src="https://placehold.co/50x50" alt="NI" class="img-fluid me-2">
+                    <img src="https://placehold.co/50x50" alt="VFP" class="img-fluid me-2">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-xing"></i></a>
+                </div>
+            </div>
         </footer>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -33,7 +33,7 @@
                                 <div class="dropdown-menu">
                                     <div class="container p-0 d-flex justify-content-center">
                                         <div class="list_nav hstack">
-                                            <div class="item">
+                                            <a href="https://www.google.com/" class="item">
                                                 <div class="icon text-center"><img src="images/icon_thumb_01.png" alt="" class="img"></div>
                                                 <div class="txt1 fw-bold">
                                                     <p>PSYCHO-<br>
@@ -43,8 +43,8 @@
                                                     <p>Ganzheitliche</p>
                                                     <p>Körperpsychotherapie</p>
                                                 </div>
-                                            </div>
-                                            <div class="item">
+                                            </a>
+                                            <a href="#" class="item">
                                                 <div class="icon text-center"><img src="images/icon_thumb_02.png" alt="" class="img"></div>
                                                 <div class="txt1 fw-bold">
                                                     <p>STÄRKEN-<br>
@@ -54,8 +54,8 @@
                                                     <p>Talent Assessment</p>
                                                     <p>Gallup Clifton Strengths</p>
                                                 </div>
-                                            </div>
-                                            <div class="item">
+                                            </a>
+                                            <a href="#" class="item">
                                                 <div class="icon text-center"><img src="images/icon_thumb_03.png" alt="" class="img"></div>
                                                 <div class="txt1 fw-bold">
                                                     <p>STRESS-<br>
@@ -65,7 +65,7 @@
                                                     <p>Herzintelligenzmethode</p>
                                                     <p>von HeartMath</p>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
