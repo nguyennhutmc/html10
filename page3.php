@@ -112,15 +112,17 @@
                         <div class="icon position-static rounded-circle"><span>2</span></div>
                         <div class="txt3">Stärken-Analyse Plus</div>
                         <div class="text text-editor mb-2">
-                        <p><b>Mehr Klarheit und gezielter Einsatz im Alltag</b></p>
-                        <p><b>Alles aus dem Basis-Paket</b></p>
-                        <p><b>+ Vertiefungsgespräch (60 Minuten):</b><br>
-                            Wie setzen Sie Ihre Stärken konkret in Alltag und
-                            Entscheidungen ein? Wir definieren erste Schritte.</p>
-                        <p><b>+ Persönliches Stärken-Handbuch:</b><br>
-                            Eine individuelle Zusammenfassung mit Tipps, wie
-                            Sie Ihre Stärken im Alltag optimal nutzen</p>
-                        <p><b>Investition: </b>445,- € inkl. MwSt</p>
+                           <p><b>Mehr Klarheit und gezielter Einsatz im Alltag</b></p>
+                           <p><b>Alles aus dem Basis-Paket</b></p>
+                           <p><b>+ Vertiefungsgespräch (60 Minuten):</b><br>
+                              Wie setzen Sie Ihre Stärken konkret in Alltag und
+                              Entscheidungen ein? Wir definieren erste Schritte.
+                           </p>
+                           <p><b>+ Persönliches Stärken-Handbuch:</b><br>
+                              Eine individuelle Zusammenfassung mit Tipps, wie
+                              Sie Ihre Stärken im Alltag optimal nutzen
+                           </p>
+                           <p><b>Investition: </b>445,- € inkl. MwSt</p>
                         </div>
                      </div>
                   </div>
@@ -129,13 +131,14 @@
                         <div class="icon position-static rounded-circle"><span>3</span></div>
                         <div class="txt3">Stärken-Entfaltung Intensiv</div>
                         <div class="text text-editor mb-2">
-                        <p><b>Ihre Talente als Kraftquelle für Wachstum</b></p>
-                        <p><b>Alles aus dem Plus-Paket</b></p>
-                        <p><b>+ Intensiv-Coaching (3 Sitzungen à 60 Minuten):</b><br>
-                            In einem vertiefenden Prozess entwickeln wir
-                            Strategien, um Ihre Stärken gezielt für Entscheidungen
-                            und Übergänge zu nutzen.</p>
-                        <p><b>Investition: </b>969,- € inkl. MwSt</p>
+                           <p><b>Ihre Talente als Kraftquelle für Wachstum</b></p>
+                           <p><b>Alles aus dem Plus-Paket</b></p>
+                           <p><b>+ Intensiv-Coaching (3 Sitzungen à 60 Minuten):</b><br>
+                              In einem vertiefenden Prozess entwickeln wir
+                              Strategien, um Ihre Stärken gezielt für Entscheidungen
+                              und Übergänge zu nutzen.
+                           </p>
+                           <p><b>Investition: </b>969,- € inkl. MwSt</p>
                         </div>
                      </div>
                   </div>
@@ -144,38 +147,46 @@
                         <div class="icon position-static rounded-circle"><span>4</span></div>
                         <div class="txt3">Ganz individuell</div>
                         <div class="text text-editor mb-2">
-                        <p><b>Keines der Pakete passt zu Ihrer Situation?</b></p>
-                        <p>Melden Sie sich - wir entwickeln gemeinsam ein
-                            Angebot, das genau auf Ihre Bedürfnisse und Ziele
-                            zugeschnitten ist.</p>
+                           <p><b>Keines der Pakete passt zu Ihrer Situation?</b></p>
+                           <p>Melden Sie sich - wir entwickeln gemeinsam ein
+                              Angebot, das genau auf Ihre Bedürfnisse und Ziele
+                              zugeschnitten ist.
+                           </p>
                         </div>
                      </div>
-                  </div>                  
+                  </div>
                </div>
             </div>
          </div>
       </section>
       <section class="section3 style2">
          <div class="container">
-            <div class="col_inner pt-0">
+            <div class="col_inner py-0">
                <div class="txt1">SIND SIE NEUGIERIG?</div>
                <div class="text text-editor">
                   <p>Machen Sie den ersten Schritt und vereinbaren Sie ein kostenloses Vorgespräch.
-
-</p></div>
-               <div class="text-start mt-auto hstack gap-x mb-5">
+                  </p>
+               </div>
+               <div class="text-start mt-auto hstack gap-x mb-4 pb-3">
                   <a href="#" class="btn btn-warning">Kontakt</a>
                </div>
-               <div class="prices-section">
-                  <div class="txt2">Preise & Modalitäten (online/Präsenz)</div>
-                  <p><strong>Bitte beachten Sie, dass meine Praxis eine reine Privatzahlerpraxis ist.</strong></p>
-                  <p>Bitte prüfen Sie, ob Sie über eine private Zusatzversicherung verfügen, oder Ihre private Krankenkasse die Kosten für </p>
-                  <p><strong>Heilpraktiker für Psychotherapie</strong> übernimmt. Eine passende Rechnung stelle ich gerne aus.</p>
-                  <p>&nbsp;</p>
-                  <p><strong>Einzelstunde:</strong> 80,-€/60 Min, 120,-€/90 Min.*</p>
-                  <p>*Reduzierte Preise und unterschiedliche Zahlungsweisen sind nach Absprache möglich.</p>
+            </div>
+            <h2 class="fw-normal title_big">Stärken verschenken!</h2>
+            <div class="col_inner py-0">
+               <div class="txt1">VERSCHENKEN SIE EIN STÄRKEN-COACHING!</div>
+               <div class="text text-editor">
+                  <p><b>Sie sind auf der Suche nach einem Geschenk für einen lieben Menschen?</b><br>
+                     Verschenken Sie einen Gutschein für ein Stärken-Coaching. Denn, was gibt es Schöneres, als einem Menschen wertvolle Erkenntnisse zu schenken?
+                  </p>
                </div>
-               <p><strong>Wenn Sie unsicher sind, ob mein Ansatz für Sie passt, melden Sie sich gerne – gemeinsam finden wir heraus, ob ich die richtige Begleitung für Sie sein kann.</strong></p>
+               <div class="text-start mt-auto hstack gap-x mb-4 pb-3">
+                  <a href="#" class="btn btn-warning">Jetzt bestellen</a>
+               </div>
+               <div class="pb-2">
+                  <div class="img_page4 pb-3 mb-3">
+                     <img src="images/img_page3.png" class="w-100 border border-secondary" alt="">
+                  </div>
+               </div>            
             </div>
          </div>
       </section>

@@ -92,7 +92,7 @@ header .list_nav .text {
 
 .btn {
     border: 0;
-    --bs-border-radius: .875rem;
+    --bs-border-radius: .75rem;
     --bs-btn-font-size: var(--bs-body-font-size);
     padding: 0.6rem 0.625rem;
     font-weight: 700;
@@ -662,6 +662,9 @@ footer {}
         padding-bottom:0;
         min-height:auto;
         width:28.125rem;
+    }
+    .img_page4{
+        width:27rem;
     }
     footer {}
 
