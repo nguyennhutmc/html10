@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <main class="home_page">
-   <div class="page2">
+   <div class="page3">
       <section class="section1 style2">
          <div class="container">
             <div class="row g-0">
