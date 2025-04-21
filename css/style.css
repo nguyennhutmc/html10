@@ -88,6 +88,7 @@ header .list_nav .text {
     font-weight: 600;
     margin-bottom: .61rem;
     line-height: 1.2;
+    font-size:0.5625rem;
 }
 
 .btn {
@@ -477,28 +478,37 @@ footer {}
         position: relative;
         display: inline;
     }
-
-    header .dropdown-toggle::after {}
-
     header .navbar-nav .dropdown-menu {
         width: 100vw;
         position: relative;
         left: -1rem;
         --bs-dropdown-spacer: .875rem;
+        --bs-dropdown-padding-y:0.625rem;
     }
-
-    header .list_nav .item {
-        width: 7.8125rem;
+    header .list_nav{
+        flex-direction: column;
+        border-top:0;
+        padding-top:0;
     }
-
-    header .list_nav .item:last-child {
-        width: 7.75rem;
+    header .list_nav .item{
+        border-left:0;
     }
-
-    header .list_nav .text {
-        font-size: 0.5625rem;
+    header .list_nav .item+.item{
+        padding-top: 0.61rem;
+        border-top:1px solid #7397AB;
     }
-
+    header .list_nav .item:last-child{
+        border-right:0;
+    }
+    header .list_nav .icon .img{
+        display:none;
+    }
+    header .list_nav .text{
+        font-size:0.625rem;
+    }
+    header .list_nav .item:last-child .text{
+        margin-bottom:0;
+    }
     header .offcanvas {
         --bs-offcanvas-width: 100vw;
         --bs-offcanvas-padding-x: .875rem;

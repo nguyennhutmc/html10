@@ -106,7 +106,7 @@ a {
     color: inherit;
 }
 a:hover{
-    color:var(--color-primary)
+    color:inherit;
 }
 p, dl, ol, ul {
     margin-bottom: 0;
@@ -173,7 +173,7 @@ table, .table {
 }
 
 .text-editor a {
-    color: rgba(var(--bs-link-color-rgb));
+    color:var(--color-primary);
 }
 
 @media (max-width: 991px) {
