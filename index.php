@@ -26,7 +26,7 @@
                             <div class="col_inner">
                                 <h2 class="txt3">KAJ-ARIANE FISCHER – COACH UND THERAPEUTIN</h2>
                                 <div class="text text-editor">
-                                    <p><a href="#">lorem</a> Als Coach und Heilpraktikerin für Psychotherapie biete ich Ihnen ein vielseitiges Leistungsspektrum im Bereich Körperpsychotherapie, Persönlichkeitsentwicklung, Teamentwicklung und Leadership.</p>
+                                    <p>Als Coach und Heilpraktikerin für Psychotherapie biete ich Ihnen ein vielseitiges Leistungsspektrum im Bereich Körperpsychotherapie, Persönlichkeitsentwicklung, Teamentwicklung und Leadership.</p>
                                     <p>Nach langjähriger Erfahrung mit verschiedenen Menschen und Zielgruppen inner- und außerhalb von Unternehmen lege ich bei meiner Arbeit den Fokus auf Ihr Wohl und Ihr Anliegen – für Ihr Unternehmen, Ihr persönliches oder berufliches Ziel und den gemeinsamen Prozess.</p>
                                 </div>
                             </div>
