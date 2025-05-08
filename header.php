@@ -24,10 +24,10 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-start flex-grow-1 col_left">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">THERAPIE & COACHING</a>
+                                <a class="nav-link" aria-current="page" href="#">THERAPIE & COACHING</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     FÜR EINZELPERSONEN
                                 </a>
                                 <div class="dropdown-menu">
@@ -70,9 +70,39 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">FÜR UNTERNEHMEN
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FÜR UNTERNEHMEN
                                 </a>
+                                <div class="dropdown-menu">
+   <div class="container p-0 d-flex justify-content-center">
+      <div class="list_nav hstack">
+         <a href="https://www.morpheus-cms.de/Fischer/fuer-unternehmen/staerken-coaching/" class="item">
+            <div class="txt1 fw-bold">
+               <p>STÄRKEN-<br>COACHING</p>
+            </div>
+            <div class="text fw-semibold">
+               <p>Talent Assessment Gallup Clifton Strengths</p>
+            </div>
+         </a>
+         <a href="https://www.morpheus-cms.de/Fischer/fuer-unternehmen/stressresilenz/" class="item">
+            <div class="txt1 fw-bold">
+               <p>Stress-<br>resilenz</p>
+            </div>
+            <div class="text fw-semibold">
+               <p>Herzintelligenzmethode von HeartMath®</p>
+            </div>
+         </a>
+         <a href="https://www.morpheus-cms.de/Fischer/fuer-unternehmen/team-coaching/" class="item">
+            <div class="txt1 fw-bold">
+               <p>Team<br>Coaching</p>
+            </div>
+            <div class="text fw-semibold">
+               <p>Stärken fördern, Kultur stärken, Erfolg steigern</p>
+            </div>
+         </a>
+      </div>
+   </div>
+</div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#">KAJ-ARIANE-FISCHER</a>

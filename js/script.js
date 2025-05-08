@@ -19,22 +19,22 @@ function init() {
     }
     if ($(window).width() >= 992) {
         let hideTimeout;
-        $('.nav-item.dropdown').hover(
-            function () {
-                clearTimeout(hideTimeout);
-                $(this).addClass('show');
-                $(this).find('.dropdown-toggle').addClass('show');
-                $(this).find('.dropdown-menu').addClass('show');
-            },
-            function () {
-                const $dropdown = $(this);
-                hideTimeout = setTimeout(function () {
-                    $dropdown.removeClass('show');
-                    $dropdown.find('.dropdown-toggle').removeClass('show');
-                    $dropdown.find('.dropdown-menu').removeClass('show');
-                }, 500);
-            }
-        );
+    $('.nav-item.dropdown').hover(
+        function () {
+            clearTimeout(hideTimeout);
+            $('.nav-item.dropdown').removeClass('show').find('.dropdown-toggle, .dropdown-menu').removeClass('show');
+            $(this).addClass('show');
+            $(this).find('.dropdown-toggle').addClass('show');
+            $(this).find('.dropdown-menu').addClass('show');
+        },
+        function () {
+            const $dropdown = $(this);
+            hideTimeout = setTimeout(function () {
+                $dropdown.removeClass('show');
+                $dropdown.find('.dropdown-toggle, .dropdown-menu').removeClass('show');
+            }, 500);
+        }
+    );
     }
 }
 
